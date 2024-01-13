@@ -62,11 +62,13 @@ button:active {
 }
 
 .ce_button .col-xs-4 {
-  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .ce_button .col-xs-4 .btn {
-  width: 100% !important;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .btn-primary:focus,
